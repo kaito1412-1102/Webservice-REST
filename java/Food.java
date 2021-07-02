@@ -20,7 +20,8 @@ class Food {
     public Food() {
     }
 
-    public Food(String name, int price, String image) {
+    public Food(int id, String name, int price, String image) {
+        this.id = id;
         this.name = name;
         this.price = price;
         this.image = image;

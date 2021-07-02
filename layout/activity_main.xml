@@ -11,4 +11,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rv_food"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name" />
+
+        <EditText
+            android:id="@+id/edt_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="price" />
+
+        <Button
+            android:id="@+id/btn_choose_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="choose image" />
+
+        <ImageView
+            android:id="@+id/img_food"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="insert" />
+    </LinearLayout>
+
 </RelativeLayout>
